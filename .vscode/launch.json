@@ -14,9 +14,9 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false, //true显示外置的控制台窗口，false显示内置终端
+            "externalConsole": true, //true显示外置的控制台窗口，false显示内置终端
             "MIMode": "gdb",
-            "miDebuggerPath": "D://coding//cpp//mingw64//bin//gdb.exe",
+            "miDebuggerPath": "F://cpp//mingw64//bin//gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",

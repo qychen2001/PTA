@@ -6,7 +6,7 @@ int main()
     int start = 0;
     int end = 0;
     scanf("%d", &k);
-    ans_max = 0;
+    int ans_max = 0;
     int A[10005];
     int dp[10005]; // dp[i]表示以第i个元素结尾的最大子段和
     for (int i = 0; i < k; i++)

@@ -3,10 +3,8 @@ using namespace std;
 
 bool is_prime(int a)
 {
-    if (a == 1)
+    if (a < 2)
         return false;
-    if (a == 2)
-        return true;
     for (int i = 2; i <= sqrt(a); i++)
     {
         if (a % i == 0)
